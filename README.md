@@ -3,26 +3,24 @@
 
 <h1>Creative Process and Execution</h1>
 
-<<<<<<< HEAD
 <strong>1. Evaluate and analyize data.</strong>
 
 <p>I create questions to think before I dive into the code</p>
 
 <h4>Who could benefit from using the data set?</h4>
-=======
 <strong>1. Evaluate and analyze data.</strong>
 
-<p>I throughly look through to see what kind of information the data provides and the data size. Then I create questions to think before I dive into the code</p>
+<p>I examine the data set and size to see what kind of data is available. Then I create questions to think before I dive into the code</p>
 
 <h4>Who would benefit from using the data set?</h4>
 
-Answer based on the <a href="https://data.sfgov.org/Energy-and-Environment/San-Francisco-Plant-Finder-Data/vmnk-skih" target="_blank">DataSF website</a>
->>>>>>> dae21a53add294497412e1208734714d0ebf5007
+Answer based on the <a href="https://data.sfgov.org/Energy-and-Environment/San-Francisco-Plant-Finder-Data/vmnk-skih" target="_blank">DataSF website</a>: 
 
 Anyone who is interested in:
 - Greening neighborhoods 
 - Enhancing our urban ecology
 - Surviving the drought.
+
 
 <h4>What is the goal of the data and application?</h4>
 
