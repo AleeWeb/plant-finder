@@ -1,0 +1,51 @@
+
+/* Temporary CSS - Will replace with SCSS and Styled Components */
+
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
+
+.wrap {
+    display: inline-flex;
+}
+
+#header {
+    background-color: lightblue;
+    height: 400px;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    padding-top: 60px;
+}
+
+.left-sidebar {
+    position: relative;
+    width: 220px;
+}
+
+.right-grid {
+    position: relative;
+    margin-left: 20px;
+    margin: 0 auto;
+}
+
+
+/* Data Grid */
+
+.card {
+    width: 230px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+/* Side Nav */
+
+.radio-wrap {
+    display: block;
+ margin-bottom: 20px;
+}

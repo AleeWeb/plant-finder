@@ -1,37 +1,47 @@
-import React, { useState, useEffect } from "react";
-import ReactDOM from "react-dom";
-import axios from "axios";
+import React from "react";
+import Header from "./header/Header";
+import TopSearch from "./search/TopSearch";
+import DataGrid from "./datagrid/DataGrid";
+import Sidebar from "./sidenav/Sidebar";
+import "./style/main.css";
+
+import { Container, Col, Row } from 'reactstrap';
 
 function App() {
-  const [plant, setplant] = useState();
 
-  useEffect(() => {
-    axios
-      .get("https://data.sfgov.org/resource/vmnk-skih.json")
-      .then(({ data }) => setplant(data));
-  });
-
-  return plant ? (
+  return (
     <div>
-      {plant.map((record, i) => {
-        return (
-          <div
-            key={i}
-            style={{
-              border: "1px black solid",
-              borderRadius: "10px",
-              margin: "10px",
-              padding: "10px"
-            }}
-          >
-            <p><strong>Plant Name:</strong> {plant[i].common_name}</p>
-            <p><strong>Plant Type:</strong> {plant[i].plant_type}</p>
+
+      <Header />
+
+      <Container className="wrap">
+
+        <Col md="3">
+
+          <div className="left-sidebar">
+
+            <Sidebar />
+
           </div>
-        );
-      })}
+
+        </Col>
+
+
+        <Col md="9">
+          <div className="right-grid">
+
+            <TopSearch />
+
+            <Row>
+              <DataGrid />
+            </Row>
+
+          </div>
+        </Col>
+
+      </Container>
+
     </div>
-  ) : (
-    <div>Loading...</div>
   );
 };
 
