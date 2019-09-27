@@ -7,15 +7,15 @@ import {
 const DataGrid = (props) => {
   const [plant, setplant] = useState();
 
-  useEffect(() => {
+ useEffect(() => {
     axios
-      .get("https://data.sfgov.org/resource/vmnk-skih.json")
-      .then(({ data }) => setplant(data));
-  });
+   .get("https://data.sfgov.org/resource/vmnk-skih.json")
+   .then(({ data }) => setplant(data));
+   });
 
   return plant ? (
     < >
-      {plant.map((record, i) => {
+      {plant.map((plants, i) => {
 
         return (
 

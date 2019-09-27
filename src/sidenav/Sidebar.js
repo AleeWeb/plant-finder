@@ -2,14 +2,15 @@ import React from 'react';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
 const SideBar = (props) => {
-    return (
-        <div className="side-bar">
+  return (
 
-        <Form>
-            <FormGroup tag="fieldset">
+    <div className="side-bar">
 
+      <Form>
+
+      {/* Plant Native radio circle filter */}
+        <FormGroup tag="fieldset">
           <legend>Native</legend>
-
           <FormGroup check>
             <Label check>
               <Input type="radio" name="native" />{' '}
@@ -23,22 +24,25 @@ const SideBar = (props) => {
               California
             </Label>
           </FormGroup>
-          
         </FormGroup>
-        
+       {/* End of Plant Native radio circle filter */}
+
+
+        {/* Start of checkbox filter option */}
+
         <FormGroup check>
           <Label check>
             <Input type="checkbox" />{' '}
-            Check me out
+            Data Option
           </Label>
         </FormGroup>
         <Button>Submit</Button>
       </Form>
+      {/* End of checkbox filter option */}
 
 
-    
-        </div>
-    );
+    </div>
+  );
 }
 
 export default SideBar;

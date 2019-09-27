@@ -1,11 +1,15 @@
 import React from "react";
 import Header from "./header/Header";
-import TopSearch from "./search/TopSearch";
+import  Search  from "./search/Search";
 import DataGrid from "./datagrid/DataGrid";
 import Sidebar from "./sidenav/Sidebar";
 import "./style/main.css";
+import { library } from '@fortawesome/fontawesome-svg-core';
+import {fas, faSearch } from '@fortawesome/free-solid-svg-icons';
 
 import { Container, Col, Row } from 'reactstrap';
+
+library.add(fas, faSearch)
 
 function App() {
 
@@ -30,7 +34,7 @@ function App() {
         <Col md="9">
           <div className="right-grid">
 
-            <TopSearch />
+          <Search />
 
             <Row>
               <DataGrid />
