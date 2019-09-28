@@ -39,5 +39,9 @@ To search and filter San Francisco plants
 
 <strong>4. Select the technology stack for the app and start coding!</strong>
 
+<h3>Why React?</h3>
+
+<p>React allows developers to create web applications which can change data, without reloading the page. The main purpose of React is to be fast, scalable, and simple. It works only on user interfaces in application.</p>
+
 <p>I went with React because an external API is used so using a "view" layer of the MVC just made sense to me. If someone ever needed to add a database for custom data or additional features, it would be easy to stack React with PostgreSQL, Django, MongoDB or something.</p>
 

@@ -8,9 +8,13 @@ const DataGrid = (props) => {
   const [plant, setplant] = useState();
 
  useEffect(() => {
+
+  const data = "https://data.sfgov.org/resource/vmnk-skih.json";
+  
     axios
-   .get("https://data.sfgov.org/resource/vmnk-skih.json")
+   .get(data)
    .then(({ data }) => setplant(data));
+   console.log(data);
    });
 
   return plant ? (
