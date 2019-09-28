@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  Card, CardBody, Button, Row
+  Card, CardBody, Row
 } from 'reactstrap';
 
 class Search extends Component {
@@ -38,18 +38,15 @@ class Search extends Component {
       return (
 
           <Card key={id}>
-            
-            <img src="https://via.placeholder.com/180x180.png" aria-hidden alt="Card image cap" />
+
+            <img src="https://via.placeholder.com/160x120.png" aria-hidden alt="Card image cap" />
 
             <CardBody>
-              <p><strong>Common Name:</strong> {item.common_name}</p>
-              <p><strong>Plant Type:</strong> {item.plant_type}</p>
-              <p><strong>Color:</strong> {item.flower_color}</p>
-              <p><strong>Bloom Time:</strong>  {item.bloom_time}</p>
-              <p><strong>Unique Characteristics:</strong>  {item.additional_characteristices_notes}</p>
+                <p><strong>Plant Name:</strong> {item.common_name}</p>
 
-              <Button outline color="primary" href="wwww.google.com" target="_blank" rel="noopener noreferrer">Learn More</Button>
-
+                <p><strong>Plant Type:</strong> {item.plant_type}</p>
+            
+              {/*   <Button outline color="primary" href="wwww.google.com" target="_blank" rel="noopener noreferrer">Learn More</Button> */}
             </CardBody>
           </Card>
 

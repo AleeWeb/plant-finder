@@ -39,9 +39,18 @@ To search and filter San Francisco plants
 
 <strong>4. Select the technology stack for the app and start coding!</strong>
 
-<h3>Why React?</h3>
+<h3>Why did I choose React for this project?</h3>
 
-<p>React allows developers to create web applications which can change data, without reloading the page. The main purpose of React is to be fast, scalable, and simple. It works only on user interfaces in application.</p>
+<ul>
 
-<p>I went with React because an external API is used so using a "view" layer of the MVC just made sense to me. If someone ever needed to add a database for custom data or additional features, it would be easy to stack React with PostgreSQL, Django, MongoDB or something.</p>
+<li>To avoid reloading the entire page every time the data changes by using the <strong>React Virtual DOM</strong>. React only updates what is necessary making it FAST!</li>
+
+<li>The <a href="https://data.sfgov.org/resource/">Plant Finder API Endpoint</a> is already hosted externally so I felt no need to go full stack for this project. I simply used the "view" layer known as React and pulled in the API JSON.</li>
+
+<li>React provides modular code that is concise thanks to ES6 JS syntax!</li>
+
+<li>There are so many awesome technology tool options, libraries and packages to use within React!</li>
+
+</ul>
+
 
