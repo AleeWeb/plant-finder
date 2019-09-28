@@ -11,69 +11,70 @@ class Search extends Component {
     searchResults: [],
   }
 
-  componentDidMount () {
+  componentDidMount() {
     fetch('https://data.sfgov.org/resource/vmnk-skih.json?$select=*')
       .then(response => response.json())
-      .then(data => this.setState({data: data, searchResults: data}))
+      .then(data => this.setState({ data: data, searchResults: data }))
   }
 
   handleChange = (e) => {
     let searchKeyword = e.target.value;
     let searchResults = this.state.data.filter((eachItem) => {
       const isMatch = Object.values(eachItem).join(",").includes(searchKeyword);
-      return isMatch; 
+      return isMatch;
     });
-    this.setState({searchResults})
+    this.setState({ searchResults })
 
-    console.log(searchKeyword);  // print the characters of search query
+    //console.log(searchKeyword);  
 
-   // console.log(searchResults); Prints the filtered results in an array of data
+    // console.log(searchResults); Prints the filtered results in an array of data
   }
 
 
 
-  render () {
-    let itemList = this.state.searchResults.map((item) => {
+  render() {
+    let itemList = this.state.searchResults.map((item, id) => {
+
       return (
-		
-		<Card key={item.id}>
 
-		<img src="https://via.placeholder.com/180x180.png" aria-hidden alt="Card image cap" />
-		<CardBody>
+          <Card key={id}>
+            
+            <img src="https://via.placeholder.com/180x180.png" aria-hidden alt="Card image cap" />
 
-		  <p><strong>Common Name:</strong> {item.common_name}</p>
-      <p><strong>Plant Type:</strong> {item.plant_type}</p>
-      <p><strong>Color:</strong> {item.flower_color}</p>
-		  <p><strong>Bloom Time:</strong>  {item.bloom_time}</p>
+            <CardBody>
+              <p><strong>Common Name:</strong> {item.common_name}</p>
+              <p><strong>Plant Type:</strong> {item.plant_type}</p>
+              <p><strong>Color:</strong> {item.flower_color}</p>
+              <p><strong>Bloom Time:</strong>  {item.bloom_time}</p>
+              <p><strong>Unique Characteristics:</strong>  {item.additional_characteristices_notes}</p>
 
-		  <Button outline color="primary" href="wwww.google.com" target="_blank" rel="noopener noreferrer">Learn More</Button>
+              <Button outline color="primary" href="wwww.google.com" target="_blank" rel="noopener noreferrer">Learn More</Button>
 
-		</CardBody>
-	  </Card>
+            </CardBody>
+          </Card>
 
-	  );
+      );
 
     })
     return (
-    <div>
-      <h3>Search:</h3>
+      <div> 
 
-      <label className="search-label" htmlFor="search-input">
-				<input
-					type="text"
-					name="search"
-					id="search-input"
-					placeholder="Search..."
-					onChange={this.handleChange}
-				/>
-				<FontAwesomeIcon icon="search" className="search-icon" />
+        <label className="search-label" htmlFor="search-input">
+          <input
+            type="text"
+            name="search"
+            id="search-input"
+            placeholder="Search..."
+            onChange={this.handleChange}
+          />
+          <FontAwesomeIcon icon="search" className="search-icon" />
+        </label>
 
-			</label>
-      <Row>
-       {itemList}
-    </Row>
-    </div>
-    
+        <Row>
+          {itemList}
+        </Row>
+      </div>
+
     )
   }
 }
