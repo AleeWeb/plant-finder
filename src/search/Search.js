@@ -46,7 +46,7 @@ class Search extends Component {
       <p><strong>Color:</strong> {item.flower_color}</p>
 		  <p><strong>Bloom Time:</strong>  {item.bloom_time}</p>
 
-		  <Button outline color="primary" href="www.google.com" target="_blank">Learn More</Button>
+		  <Button outline color="primary" href="wwww.google.com" target="_blank" rel="noopener noreferrer">Learn More</Button>
 
 		</CardBody>
 	  </Card>

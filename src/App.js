@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./header/Header";
-import  Search  from "./search/Search";
+import TopBar from './header/TopBar';
+import Search  from "./search/Search";
 import Sidebar from "./sidenav/Sidebar";
 import "./style/main.css";
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -14,6 +15,8 @@ function App() {
 
   return (
     <div>
+
+      <TopBar />
 
       <Header />
 
