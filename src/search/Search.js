@@ -10,9 +10,8 @@ const Search = () => {
 					name="search"
 					id="search-input"
 					placeholder="Search..."
+					onChange={this.onchange}
 				/>
-
-
 				<FontAwesomeIcon icon="search" className="search-icon" />
 
 			</label>

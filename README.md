@@ -1,7 +1,7 @@
 
 ## Plant Finder
 
-<h1>Creative Process and Execution</h1>
+<h3>Creative Process and Execution</h3>
 
 <strong>1. Evaluate and analyize data.</strong>
 
@@ -33,7 +33,7 @@ To search and filter San Francisco plants
 
 <strong>2. Visual Brainstorm during the early stages.</strong>
 
-<p>Quickly create wireframes, mock-ups/ Prototypes to visually brainstorm how I would like the app to look.</p>
+<p>Quickly create wireframes, mock-ups/ Prototypes to visually brainstorm how I would like to layout the content for the app.</p>
 
 <strong>3. Based on the data, project requirements and app purpose, I research technology options that will visualize the data in the way I would like.</strong>
 
