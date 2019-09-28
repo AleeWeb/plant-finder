@@ -22,7 +22,7 @@ function App() {
 
       <Container className="wrap">
 
-        <Col md="3">
+        <Col md="3" xl="2">
 
           <div className="left-sidebar">
 
@@ -33,7 +33,7 @@ function App() {
         </Col>
 
 
-        <Col md="9">
+        <Col md="9" xl="10">
           <div className="right-grid">
 
           <Search />

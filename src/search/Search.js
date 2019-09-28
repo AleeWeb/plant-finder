@@ -12,7 +12,7 @@ class Search extends Component {
   }
 
   componentDidMount() {
-    fetch('https://data.sfgov.org/resource/vmnk-skih.json?$select=*')
+    fetch('https://data.sfgov.org/resource/vmnk-skih.json')
       .then(response => response.json())
       .then(data => this.setState({ data: data, searchResults: data }))
   }
@@ -64,7 +64,7 @@ class Search extends Component {
             type="text"
             name="search"
             id="search-input"
-            placeholder="Search..."
+            placeholder="Search here..."
             onChange={this.handleChange}
           />
           <FontAwesomeIcon icon="search" className="search-icon" />
