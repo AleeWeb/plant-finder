@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 import Tabs from './Tabs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  Card, CardBody, Row
+  Button, Row
 } from 'reactstrap';
+
+import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
 class Search extends Component {
 
@@ -33,29 +35,51 @@ class Search extends Component {
 
 
   render() {
-    
-    let itemList = this.state.searchResults.map((item, id) => {
+
+    let plantList = this.state.searchResults.map((plant, id) => {
 
       return (
 
-          <Card key={id}>
+        <Flippy
+          key={id}
+          flipOnHover={true}
+          flipDirection="horizontal"
+          ref={(r) => this.flippy = r} 
+          style={{ width: '200px', height: 'auto', margin: '3px', marginBottom: '10px' }}
+        //    style={{ width: '250px', height: 'auto', margin: '5px' }} 
+        >
+          <FrontSide className="card">
 
             <img src="https://via.placeholder.com/160x120.png" aria-hidden alt="Card image cap" />
 
-            <CardBody>
-                <p><strong>Plant Name:</strong> {item.common_name}</p>
+            <div className="cardfront-wrap">
 
-                <p><strong>Plant Type:</strong> {item.plant_type}</p>
+              <p><strong>Plant Name:</strong> {plant.common_name}</p>
+
+              <p><strong>Plant Type:</strong> {plant.plant_type}</p>
+
+            </div>
+
+          </FrontSide>
+          <BackSide
+            style={{ backgroundColor: '#ffffff' }}>
+
+          <div className="cardback-wrap">
+        
+            <p><strong>Interesting Fact</strong>: {plant.common_name} {plant.additional_characteristices_notes}</p>
             
-              {/*   <Button outline color="primary" href="wwww.google.com" target="_blank" rel="noopener noreferrer">Learn More</Button> */}
-            </CardBody>
-          </Card>
+            <Button outline color="primary" href="www.google.com" target="_blank">Learn More</Button>
+
+            </div>
+          </BackSide>
+        </Flippy>
+
 
       );
 
     })
     return (
-      <div> 
+      <div>
 
         <label className="search-label" htmlFor="search-input">
           <input
@@ -69,14 +93,14 @@ class Search extends Component {
         </label>
 
         <Row>
-          {itemList}
+          {plantList}
         </Row>
 
         <Row>
           <Tabs />
         </Row>
 
-  
+
       </div>
 
     )

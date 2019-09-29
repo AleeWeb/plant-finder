@@ -1,7 +1,7 @@
 
 ## Plant Finder
 
-<h3>Creative Process and Execution</h3>
+<h3>My Creative Process and Execution</h3>
 
 <strong>1. Evaluate and analyize data.</strong>
 
