@@ -1,16 +1,28 @@
 import React, { Component } from 'react';
 import Tabs from './Tabs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Button, Row } from 'reactstrap';
+import { Button, Row, Modal, ModalBody, ModalFooter } from 'reactstrap';
 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
 class Search extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      data: [],
+      searchResults: [],
+      modal: false
+    };
 
-  state = {
-    data: [],
-    searchResults: [],
+    this.toggle = this.toggle.bind(this);
   }
+
+  toggle() {
+    this.setState(prevState => ({
+      modal: !prevState.modal
+    }));
+  }
+
 
   componentDidMount() {
     fetch('https://data.sfgov.org/resource/vmnk-skih.json?$select=*')
@@ -28,7 +40,7 @@ class Search extends Component {
 
     //console.log(searchKeyword);  
 
-   //console.log(searchResults); Prints the filtered results in an array of data
+    //console.log(searchResults); Prints the filtered results in an array of data
   }
 
 
@@ -64,11 +76,11 @@ class Search extends Component {
 
             <div className="cardback-wrap">
 
-              <p><FontAwesomeIcon icon="seedling" className="fact-icon" /> 
-              <strong>Interesting Fact</strong>: The {plant.common_name} {plant.additional_characteristices_notes}
+              <p><FontAwesomeIcon icon="seedling" className="fact-icon" />
+                <strong>Interesting Fact</strong>: {plant.additional_characteristices_notes}
               </p>
 
-                <Button color="success" onClick={this.toggle} className="card-back-btn">Learn More</Button>
+              <Button color="success" onClick={this.toggle}>{this.props.buttonLabel}Learn More!</Button>
 
             </div>
           </BackSide>
@@ -94,6 +106,22 @@ class Search extends Component {
 
         <Row>
           {plantList}
+
+          <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
+
+            <ModalBody toggle={this.toggle}>
+
+            <button type="button" class="close" aria-label="Close" onClick={this.toggle}><span aria-hidden="true">×</span></button>
+              <img src="https://cdn.dribbble.com/users/698871/screenshots/3971146/succulents-animation.gif" width="100%"  aria-hidden alt="temporary animated gif" />  
+
+            <p>Future content and text here.</p>
+
+            </ModalBody>
+            <ModalFooter>
+
+              <Button color="secondary" onClick={this.toggle}>Close</Button>
+            </ModalFooter>
+          </Modal>
         </Row>
 
         <Row>
