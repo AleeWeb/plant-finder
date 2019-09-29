@@ -5,11 +5,11 @@ import Search from "./search/Search";
 import Sidebar from "./sidenav/Sidebar";
 import "./style/main.css";
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { fas, faSearch } from '@fortawesome/free-solid-svg-icons';
+import { fas, faSearch, faSeedling} from '@fortawesome/free-solid-svg-icons';
 
 import { Container, Col } from 'reactstrap';
 
-library.add(fas, faSearch)
+library.add(fas, faSearch, faSeedling)
 
 function App() {
 

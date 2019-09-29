@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/* Data Section */
+/* Data Card Section */
 
 .card {
     padding: 0;
@@ -50,7 +50,21 @@ h1, h2, h3, h4, h5, h6 {
 
 .cardback-wrap {
     font-size: 13.5px;
+    margin-left: 7px;
 }
+
+.card-back-btn {
+    position: relative;
+    left: 25px;
+    border-color: #009900;
+}
+
+.fact-icon {
+    font-size: 20px;
+    color: #009900;
+}
+
+/* Search Bar */
 
 .search-icon {
 	position: absolute;

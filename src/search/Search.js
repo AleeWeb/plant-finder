@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import Tabs from './Tabs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  Button, Row
-} from 'reactstrap';
+import { Button, Row } from 'reactstrap';
 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
@@ -30,7 +28,7 @@ class Search extends Component {
 
     //console.log(searchKeyword);  
 
-    // console.log(searchResults); Prints the filtered results in an array of data
+   //console.log(searchResults); Prints the filtered results in an array of data
   }
 
 
@@ -44,9 +42,8 @@ class Search extends Component {
           key={id}
           flipOnHover={true}
           flipDirection="horizontal"
-          ref={(r) => this.flippy = r} 
+          ref={(r) => this.flippy = r}
           style={{ width: '200px', height: 'auto', margin: '3px', marginBottom: '10px' }}
-        //    style={{ width: '250px', height: 'auto', margin: '5px' }} 
         >
           <FrontSide className="card">
 
@@ -61,14 +58,17 @@ class Search extends Component {
             </div>
 
           </FrontSide>
+
           <BackSide
             style={{ backgroundColor: '#ffffff' }}>
 
-          <div className="cardback-wrap">
-        
-            <p><strong>Interesting Fact</strong>: {plant.common_name} {plant.additional_characteristices_notes}</p>
-            
-            <Button outline color="primary" href="www.google.com" target="_blank">Learn More</Button>
+            <div className="cardback-wrap">
+
+              <p><FontAwesomeIcon icon="seedling" className="fact-icon" /> 
+              <strong>Interesting Fact</strong>: The {plant.common_name} {plant.additional_characteristices_notes}
+              </p>
+
+                <Button color="success" onClick={this.toggle} className="card-back-btn">Learn More</Button>
 
             </div>
           </BackSide>
