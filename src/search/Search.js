@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Tabs from './Tabs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   Card, CardBody, Row
@@ -12,7 +13,7 @@ class Search extends Component {
   }
 
   componentDidMount() {
-    fetch('https://data.sfgov.org/resource/vmnk-skih.json')
+    fetch('https://data.sfgov.org/resource/vmnk-skih.json?$select=*')
       .then(response => response.json())
       .then(data => this.setState({ data: data, searchResults: data }))
   }
@@ -31,8 +32,8 @@ class Search extends Component {
   }
 
 
-
   render() {
+    
     let itemList = this.state.searchResults.map((item, id) => {
 
       return (
@@ -70,6 +71,12 @@ class Search extends Component {
         <Row>
           {itemList}
         </Row>
+
+        <Row>
+          <Tabs />
+        </Row>
+
+  
       </div>
 
     )

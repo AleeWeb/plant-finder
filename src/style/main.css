@@ -37,13 +37,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Data Section */
 
-/*
-.card {
-    width: 230px;
-    margin-right: 10px;
-    margin-top: 10px;
-}*/
-
 .card {
     width: 24%;
     margin-right: 5px;
@@ -85,9 +78,12 @@ h1, h2, h3, h4, h5, h6 {
     list-style-type: none;
   }
 
+  /* Pagination */
 
 
-/* Side Nav */
+
+
+/* Left Side Nav */
 
 .radio-wrap {
     display: block;

@@ -1,11 +1,11 @@
 import React from "react";
 import Header from "./header/Header";
 import TopBar from './header/TopBar';
-import Search  from "./search/Search";
+import Search from "./search/Search";
 import Sidebar from "./sidenav/Sidebar";
 import "./style/main.css";
 import { library } from '@fortawesome/fontawesome-svg-core';
-import {fas, faSearch } from '@fortawesome/free-solid-svg-icons';
+import { fas, faSearch } from '@fortawesome/free-solid-svg-icons';
 
 import { Container, Col } from 'reactstrap';
 
@@ -36,7 +36,7 @@ function App() {
         <Col md="9" xl="9">
           <div className="right-grid">
 
-          <Search />
+            <Search />
 
           </div>
         </Col>

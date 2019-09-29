@@ -1,17 +1,17 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Pagination, PaginationItem, PaginationLink } from 'reactstrap';
 
-export default class Pagination extends Component {
+class Tabs extends Component {
   render() {
     return (
       <Pagination aria-label="Page navigation example">
-      <PaginationItem disabled>
+      <PaginationItem>
           <PaginationLink first href="#" />
         </PaginationItem>
-        <PaginationItem disabled>
+        <PaginationItem>
           <PaginationLink previous href="#" />
         </PaginationItem>
-        <PaginationItem active>
+        <PaginationItem>
           <PaginationLink href="#">
             1
           </PaginationLink>
@@ -46,3 +46,5 @@ export default class Pagination extends Component {
     );
   }
 }
+
+export default Tabs;
