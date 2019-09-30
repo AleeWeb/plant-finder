@@ -4,6 +4,8 @@
 <strong>Live App URL:</strong> <a href="https://jhu-code-challenge.herokuapp.com" target="_blank">https://jhu-code-challenge.herokuapp.com</a>
 
 
+<img src="https://i.imgur.com/QH6tjIm.jpg" alt="Plant Finder Screenshot" />
+
 <h3>My Creative Process and Execution</h3>
 
 <strong>1. Evaluate and analyize data.</strong>
