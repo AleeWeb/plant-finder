@@ -117,16 +117,25 @@ class Search extends Component {
             <ModalBody>
 
               <button type="button" className="close" aria-label="Close" onClick={this.toggle}><span aria-hidden="true">×</span></button>
-              <img src="https://cdn.dribbble.com/users/698871/screenshots/3971146/succulents-animation.gif" width="100%" aria-hidden alt="temporary animated gif" />
+             
+             <img src="https://cdn.dribbble.com/users/698871/screenshots/3971146/succulents-animation.gif" width="100%" height="auto" aria-hidden alt="temporary animated gif" />
                
                {
                  this.state.currentModal ? (
                   <>
-                    <p><strong>Common Name:</strong> {this.state.currentModal.common_name}</p>
-
-                    <p><strong>Plant Type:</strong> {this.state.currentModal.plant_type}</p>
-
-                    <p><strong>Native Type:</strong> {this.state.currentModal.climate_appropriate_plants}</p>
+                  <ul>
+                    <li><strong>Latin Name:</strong> {this.state.currentModal.latin_name}</li>
+                    <li><strong>Common Name:</strong> {this.state.currentModal.common_name}</li>
+                    <li><strong>Family Name:</strong> {this.state.currentModal.family_name}</li>
+                    <li><strong>Native Type:</strong> {this.state.currentModal.climate_appropriate_plants}</li>
+                    <li><strong>Bloom Time:</strong> {this.state.currentModal.bloom_time}</li>
+                    <li><strong>Full Grown Size:</strong> {this.state.currentModal.size_at_maturity}</li>
+                
+                    <li><strong>Description:</strong> This {this.state.currentModal.climate_appropriate_plants} and {this.state.currentModal.plant_type} requires
+                  the best condtions that are {this.state.currentModal.suitable_site_conditions} with water needs that are {this.state.currentModal.water_needs}.
+                  The appropriate location for this plant is {this.state.currentModal.appropriate_location} and the common communities are 
+                  {this.state.currentModal.plant_communities}.</li>
+                  </ul>
                    </>
                  ) : null
                }
