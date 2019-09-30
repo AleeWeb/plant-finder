@@ -1,8 +1,6 @@
 
 ## Plant Finder
 
-<img src="http://g.recordit.co/ryE7VFSqdE.gif" alt="app animated gif screenshare" width="100%" height="300px" />
-
 <strong>Live App URL:</strong> <a href="https://jhu-code-challenge.herokuapp.com" target="_blank">https://jhu-code-challenge.herokuapp.com</a>
 
 
