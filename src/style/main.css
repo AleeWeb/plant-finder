@@ -1,178 +1,128 @@
-
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
 body {
-    width: 100%;
-    margin: 0 auto;
-    font-family: 'Roboto', sans-serif;
+	width: 100%;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
 }
-
 h1, h2, h3, h4, h5, h6 {
-    margin-top: 0;
+	margin-top: 0;
 }
-
-
 ul li {
-    margin-bottom: 3px;
+	margin-bottom: 3px;
 }
-
 /* Header */
 
 #top-header {
-    background-color: #003333;
+	background-color: #003333;
 }
-
 .main-headline {
-    color: #009900;
+	color: #009900;
 }
-
 .sub-headline {
-    color: #003333;
+	color: #003333;
 }
-
 .main-headline, .sub-headline {
-    position: relative;
-    text-align: center;
+	position: relative;
+	text-align: center;
 }
-
-#header  {
-    width: 100%x;
-    height: 400px;
-    margin-bottom: 40px;
-    background-color: hsla(200,40%,30%,.4);
-    color: #fff;
-	background-image:		
-		url('https://78.media.tumblr.com/cae86e76225a25b17332dfc9cf8b1121/tumblr_p7n8kqHMuD1uy4lhuo1_540.png'), 
-		url('https://78.media.tumblr.com/66445d34fe560351d474af69ef3f2fb0/tumblr_p7n908E1Jb1uy4lhuo1_1280.png'),
-		url('https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png'),
-		url('https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png'),
-		url('https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png');
+#header {
+	width: 100%x;
+	height: 400px;
+	margin-bottom: 40px;
+	background-color: hsla(200, 40%, 30%, .4);
+	color: #fff;
+	background-image: url('https://78.media.tumblr.com/cae86e76225a25b17332dfc9cf8b1121/tumblr_p7n8kqHMuD1uy4lhuo1_540.png'), url('https://78.media.tumblr.com/66445d34fe560351d474af69ef3f2fb0/tumblr_p7n908E1Jb1uy4lhuo1_1280.png'), url('https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png'), url('https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png'), url('https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png');
 	background-repeat: repeat-x;
-	background-position: 
-		0 20%,
-		0 100%,
-		0 50%,
-		0 100%,
-		0 0;
-	background-size: 
-		2500px,
-		800px,
-		500px 200px,
-		1000px,
-		400px 260px;
+	background-position: 0 20%, 0 100%, 0 50%, 0 100%, 0 0;
+	background-size: 2500px, 800px, 500px 200px, 1000px, 400px 260px;
 	animation: 50s para infinite linear;
-	}
-
+}
 @keyframes para {
 	100% {
-		background-position: 
-			-5000px 20%,
-			-800px 95%,
-			500px 50%,
-			1000px 100%,
-			400px 0;
-		}
+		background-position: -5000px 20%, -800px 95%, 500px 50%, 1000px 100%, 400px 0;
 	}
-
+}
 /* Description Blurb */
 
 .blurb-wrap {
-    margin-bottom: 30px;
+	margin-bottom: 30px;
 }
-
 .blurb-description {
-    margin: 0 auto;
-    width: 80%;
-    margin-top: 20px;
-    
+	margin: 0 auto;
+	width: 80%;
+	margin-top: 20px;
 }
-
-
 /* Right content grid */
 
 .right-grid {
-    position: relative;
-    margin-left: 20px;
-    margin: 0 auto;
+	position: relative;
+	margin-left: 20px;
+	margin: 0 auto;
 }
-
-
 /* Data Search Bar */
 
-
 .search-wrap {
-    margin-top: 40px;
-    margin: 0 auto;    
+	margin-top: 40px;
+	margin: 0 auto;
 }
-
 .search-icon {
-    position: absolute;
-    top: 35px;
-    font-size: 18px;
-    color: #009900;
-    left: 165px;
+	position: absolute;
+	top: 35px;
+	font-size: 18px;
+	color: #009900;
+	left: 165px;
 }
-
 #search-input {
-    width: 730px;
-    position: relative;
-    left: 20%;
-    padding: 10px;
-    padding-left: 40px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    border: solid 1px rgb(27, 94, 32);
+	width: 730px;
+	position: relative;
+	left: 20%;
+	padding: 10px;
+	padding-left: 40px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	border: solid 1px rgb(27, 94, 32);
 }
-
 ::placeholder {
-    padding-left: 10px;
-    opacity: 1; /* Firefox */
-  }
-
-
-  :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    padding-left: 30px;
-  }
-  
-  ::-ms-input-placeholder { /* Microsoft Edge */
-    padding-left: 30px;
-  }
-
-  ul {
-    list-style-type: none;
-  }
-
-
+	padding-left: 10px;
+	opacity: 1;
+	/* Firefox */
+}
+:-ms-input-placeholder {
+	/* Internet Explorer 10-11 */
+	padding-left: 30px;
+}
+::-ms-input-placeholder {
+	/* Microsoft Edge */
+	padding-left: 30px;
+}
+ul {
+	list-style-type: none;
+}
 /* Data Card Section */
 
 .card {
-    padding: 0;
-    margin: 10px;
-    font-size: 14px;
-    height: 250px;
-    border: none;
+	padding: 0;
+	margin: 10px;
+	font-size: 14px;
+	height: 250px;
+	border: none;
 }
-
 .cardfront-wrap {
-    padding: 10px;
+	padding: 10px;
 }
-
 .cardback-wrap {
-    position: relative;
-    left: 10px;
+	position: relative;
+	left: 10px;
 }
-
 .fact-txt {
-    font-size: .80em !important;
+	font-size: .80em !important;
 }
-
 .card-back-btn {
-    position: relative;
-    left: 23px;
-    border-color: #009900;
+	position: relative;
+	left: 23px;
+	border-color: #009900;
 }
-
 .fact-icon {
-    font-size: 20px;
-    color: #009900;
+	font-size: 20px;
+	color: #009900;
 }

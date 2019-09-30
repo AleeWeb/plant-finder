@@ -7,7 +7,7 @@ import { Container, Col } from 'reactstrap';
 import "./style/main.css";
 import "./style/images.css";
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { fas, faSearch, faSeedling, faSpa} from '@fortawesome/free-solid-svg-icons';
+import { fas, faSearch, faSeedling, faSpa } from '@fortawesome/free-solid-svg-icons';
 import FloatBtn from './FloatBtn';
 
 library.add(fas, faSearch, faSeedling, faSpa)
@@ -15,6 +15,7 @@ library.add(fas, faSearch, faSeedling, faSpa)
 function App() {
 
   return (
+
     <div>
 
       <TopBar />
@@ -23,20 +24,14 @@ function App() {
 
       <Container className="fluid">
 
-      <Blurb />
+        <Blurb />
 
 
         <Col md="12" xl="12">
-          <div className="right-grid">
-
-            <Search />
-
-          </div>
+          <div className="right-grid"> <Search /></div>
         </Col>
 
-        
         <FloatBtn />
-      
 
       </Container>
 

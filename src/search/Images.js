@@ -148,33 +148,89 @@ const Images = {
     image:'https://upload.wikimedia.org/wikipedia/commons/a/ae/Blue_blossom_ceanothus_%28Ceanothus_thyrsiflorus%29_on_Point_Reyes_Fire_Lane_Trail.jpg'
   },
   "Chinese Hackberry": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+    image:'https://upload.wikimedia.org/wikipedia/commons/8/81/HK_CWB_HKCL_tree_朴樹_Chinese_Hackberry_n_escalators_Nov-2013_02.JPG'
   },
   "Redbud": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+    image:'https://c1.staticflickr.com/4/3933/33594275601_6202f66c0d_b.jpg'
   },
   "Soap Plant": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+    image:'https://live.staticflickr.com/8236/8580342347_90ed3f200f_b.jpg'
   },
   "Indian Thistle": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+    image:'https://upload.wikimedia.org/wikipedia/commons/8/8e/Cirsium_edule_6248.JPG'
   },
   "Snowy Thistle": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+    image:'https://upload.wikimedia.org/wikipedia/commons/8/8e/Cirsium_occidentale_candidissimum_%285377723079%29.jpg'
   },
   "Compact Cobweb Thistle": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+    image:'https://upload.wikimedia.org/wikipedia/commons/b/ba/Cirsium_occidentale_var._compactum.jpg'
   },
   "Davy's Clarkia": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+    image:'https://upload.wikimedia.org/wikipedia/commons/b/b9/Clarkiadavyi.jpg'
   },
   "Winecup Clarkia": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+    image:'https://live.staticflickr.com/2453/3671951132_7694b05d54_b.jpg'
   },
   "Farewell to Spring": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+    image:'https://live.staticflickr.com/6040/5914476466_51369993ea_b.jpg'
   },
   "California Thistle": {
+    image:'https://live.staticflickr.com/2041/4510513852_95ac277141_b.jpg'
+  },
+  "Woodland Clarkia": {
+    image:'https://upload.wikimedia.org/wikipedia/commons/a/ad/Clarkia_rubicunda.jpg'
+  },
+  "Japanese Blueberry Tree": {
+    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+  },
+  "Hart's Tongue Fern": {
+    image:'https://upload.wikimedia.org/wikipedia/commons/7/76/Hart%27s-tongue_fern_%28Asplenium_scolopendrium%29_%2814872292744%29.jpg'
+  },
+  "Western Virgin's Bower": {
+    image:'https://farm1.staticflickr.com/399/20499019672_5336627d95_b.jpg'
+  },
+  "Yerba Buena": {
+    image:'https://live.staticflickr.com/2217/5748182243_895a5e81f2_b.jpg'
+  },
+  "Blue Wild-rye": {
+    image:'https://live.staticflickr.com/7075/7243640522_44441e5c6f_b.jpg'
+  },
+  "Japanese Blueberry": {
+    image:'https://libreshot.com/wp-content/uploads/2014/09/blueberry.jpg'
+  },
+  "Vine maple tree": {
+    image:'https://live.staticflickr.com/1962/43398454080_5d73ec2ca7_b.jpg'
+  },
+  "Autumn Blaze Maple, Freeman Maple": {
+    image:'https://teensblog.club/wp-content/uploads/2018/10/home-design-autumn-blaze-maple-problems-autumn-blaze-maple-tree-for-sale-near-me.jpg'
+  },
+  "California Dogwood": {
+    image:'https://upload.wikimedia.org/wikipedia/commons/9/94/Cornus_florida_ssp_urbiniana_1.jpg'
+  },
+  "Red Flowering Gum": {
+    image:'https://live.staticflickr.com/7155/6801042095_51f20bca76_b.jpg'
+  },
+  "American Dogwood": {
+    image:'https://cdn.pixabay.com/photo/2018/04/27/21/05/dogwood-3355863_960_720.jpg'
+  },
+
+  "Common Snowberry": {
+    image:'https://cdn.pixabay.com/photo/2014/02/05/01/07/common-snowberry-258658_960_720.jpg'
+  },
+
+  "California Hazelnut": {
+    image:'https://live.staticflickr.com/3246/2512217873_6f5e671caa_b.jpg'
+  },
+
+
+  // Need Images
+  "Chinese Houses": {
+    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+  },
+  "Cabbage Palm": {
+    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+  },
+  "Common Sand Aster": {
     image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
   },
  
