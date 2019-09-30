@@ -43,6 +43,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 10px;
     font-size: 13px;
     height: 250px;
+    border: none;
 }
 
 .cardfront-wrap {
@@ -50,9 +51,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .cardback-wrap {
-    font-size: 12.5px;
     position: relative;
     left: 10px;
+}
+
+.fact-txt {
+    font-size: .87em !important;
 }
 
 .card-back-btn {

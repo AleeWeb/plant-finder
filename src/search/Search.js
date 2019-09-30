@@ -80,7 +80,7 @@ class Search extends Component {
 
             <div className="cardback-wrap">
 
-              <p><FontAwesomeIcon icon="seedling" className="fact-icon" />
+              <p className="fact-txt"><FontAwesomeIcon icon="seedling" className="fact-icon" />
               <strong>{plant.common_name} Interesting Fact</strong>: {plant.additional_characteristices_notes}
               </p>
 
