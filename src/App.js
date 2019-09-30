@@ -3,6 +3,7 @@ import Header from "./header/Header";
 import TopBar from './header/TopBar';
 import Search from "./search/Search";
 import Blurb from './Blurb';
+import Footer from './Footer';
 import { Container, Col } from 'reactstrap';
 import "./style/main.css";
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -33,6 +34,8 @@ function App() {
         <FloatBtn />
 
       </Container>
+
+      <Footer />
 
     </div>
   );
