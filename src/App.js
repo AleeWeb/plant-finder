@@ -3,11 +3,11 @@ import Header from "./header/Header";
 import TopBar from './header/TopBar';
 import Search from "./search/Search";
 import Sidebar from "./sidenav/Sidebar";
+import { Container, Col } from 'reactstrap';
 import "./style/main.css";
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas, faSearch, faSeedling} from '@fortawesome/free-solid-svg-icons';
-
-import { Container, Col } from 'reactstrap';
+import FloatBtn from './FloatBtn';
 
 library.add(fas, faSearch, faSeedling)
 
@@ -22,7 +22,9 @@ function App() {
 
       <Container className="wrap">
 
-        <Col md="3" xl="3">
+     
+
+        <Col md="2" xl="2">
 
           <div className="left-sidebar">
 
@@ -40,6 +42,10 @@ function App() {
 
           </div>
         </Col>
+
+        <Col md="1" xl="1">
+        <FloatBtn />
+          </Col>
 
       </Container>
 

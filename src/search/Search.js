@@ -105,16 +105,21 @@ class Search extends Component {
         </label>
 
         <Row>
+
           {plantList}
 
           <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
 
-            <ModalBody toggle={this.toggle}>
+            <ModalBody>
 
-            <button type="button" class="close" aria-label="Close" onClick={this.toggle}><span aria-hidden="true">×</span></button>
-              <img src="https://cdn.dribbble.com/users/698871/screenshots/3971146/succulents-animation.gif" width="100%"  aria-hidden alt="temporary animated gif" />  
+              <button type="button" className="close" aria-label="Close" onClick={this.toggle}><span aria-hidden="true">×</span></button>
+              <img src="https://cdn.dribbble.com/users/698871/screenshots/3971146/succulents-animation.gif" width="100%" aria-hidden alt="temporary animated gif" />
 
-            <p>Future content and text here.</p>
+              <p><strong>Common Name:</strong> {this.props.common_name}</p>
+
+              <p><strong>Plant Type:</strong> {this.state.plant_type}</p>
+
+              <p><strong>Native Type:</strong> {this.climate_appropriate_plants}</p>
 
             </ModalBody>
             <ModalFooter>
@@ -128,9 +133,7 @@ class Search extends Component {
           <Tabs />
         </Row>
 
-
       </div>
-
     )
   }
 }
