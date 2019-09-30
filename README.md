@@ -31,11 +31,11 @@ Anyone who is interested in:
 
 <h4>What is the goal of the application?</h4>
 
-<p>To comprehend the data and to clearly communicate the data to the user. Make sure the user experience isn't confusing by balancing out the out animation and effects with clear and consise UI.</p>
+<p>To clearly communicate the data to the user. Make sure the user experience isn't confusing by balancing out the animation and effects with clear and consise UI.</p>
 
 <img src="https://i.imgur.com/MedgDAM.png" alt="flipping card UI UX" />
                                                                    
-<p>I tried to make the data interesting and fun by making the cards flip to display hidden data under the "Interesting Fact" section that I created on the back of the cards.
+<p>I tried to make the data interesting and fun by making the cards flip to display hidden data under the "Interesting Fact" section that I created on the back of the cards.</p>
   
 <h4>What are the project requirements?</h4>
 

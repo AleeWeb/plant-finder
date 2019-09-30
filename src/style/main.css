@@ -126,3 +126,11 @@ ul {
 	font-size: 20px;
 	color: #009900;
 }
+
+
+@media (max-width: 576px) {
+
+		#search-input {
+			width: auto!important;
+		}
+}

@@ -4,7 +4,7 @@ const Images = {
     image:'https://cdn.pixabay.com/photo/2016/04/30/21/30/flowers-1363891_960_720.jpg'
   },
   "Trident Maple": {
-    image:'https://live.staticflickr.com/3570/3563790954_9b0320a3e7_b.jpg'
+    image:'https://live.staticflickr.com/3315/3505588160_a661f4f8cc_b.jpg'
   },
   "Bigleaf Maple": {
     image:'https://live.staticflickr.com/3162/5867693465_825d9e93f0_b.jpg'
@@ -233,9 +233,6 @@ const Images = {
   "Native mock orange": {
     image:'https://upload.wikimedia.org/wikipedia/commons/4/49/Lewis%27s_Mock-orange_NFUW_-_Umatilla_NF_Oregon.jpg'
   },
-  "Native mock orange": {
-    image:'https://upload.wikimedia.org/wikipedia/commons/4/49/Lewis%27s_Mock-orange_NFUW_-_Umatilla_NF_Oregon.jpg'
-  },
   "California Wild Grape": {
     image:'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Vitis_californica_at_Caswell_Memorial_State_Park_spring_leaves.jpg/800px-Vitis_californica_at_Caswell_Memorial_State_Park_spring_leaves.jpg'
   },
@@ -245,10 +242,84 @@ const Images = {
   "Blue finger": {
     image:'https://upload.wikimedia.org/wikipedia/commons/3/3f/Senecio_mandraliscae.jpg'
   },
-
-
-   
-
+  "Bush Sunflower": {
+    image:'https://live.staticflickr.com/8234/8527712711_f3e1a6256b_b.jpg'
+  },
+  "San Francisco Wallflower": {
+    image:'https://upload.wikimedia.org/wikipedia/commons/0/02/FranciscanWallflower.jpg'
+  },
+  "Washington Hawthorn": {
+    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+  },
+  "Lavallée's hawthorn": {
+    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+  },
+  "Alkali Weed": {
+    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+  },
+  "Queen Palm": {
+    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+  },
+  "Trailing Snowberry": {
+    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+  },
+  "Wild Aster": {
+    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+  },
+  "Huckleberry": {
+    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+  },
+  "Mock Heather": {
+    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+  },
+  "Dune Tansy": {
+    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+  },
+  "Red Fescue": {
+    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+  },
+  "Redberry": {
+    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+  },
+  "Fringe Cups": {
+    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+  },
+  "Littleleaf Linden": {
+    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+  },
+  "Bull Clover": {
+    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+  },
+  "Pinpoint Clover": {
+    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+  },
+  "Whitetip Clover": {
+    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+  },
+  "Tomcat Clover": {
+    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+  },
+  "Cow Clover": {
+    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+  },
+  "Water Gum": {
+    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+  },
+  "Western Goldenrod": {
+    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+  },
+  "Elegant Brisbane Box": {
+    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+  },
+  "Southern Cattail": {
+    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+  },
+  "Broadleaf Cattail": {
+    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+  },
+  "Drake/Sempervirens Chinese Elm": {
+    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+  }
 }; 
 
 export default Images;

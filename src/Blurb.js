@@ -13,8 +13,9 @@ function Blurb() {
                 greening neighborhoods, enhancing our urban ecology and surviving the drought. The Plant Finder 
                 recommends appropriate plants for sidewalks, private backyards and roofs that are adapted to San Francisco's 
                 unique environment, climate and habitats.
-
             </p>
+
+            <p className="main-headline">You can search by types: Trees, Shrubs, Perennial and more!</p>
 
         <hr />
 

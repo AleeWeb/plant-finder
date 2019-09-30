@@ -5,7 +5,6 @@ import Search from "./search/Search";
 import Blurb from './Blurb';
 import { Container, Col } from 'reactstrap';
 import "./style/main.css";
-import "./style/images.css";
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas, faSearch, faSeedling, faSpa } from '@fortawesome/free-solid-svg-icons';
 import FloatBtn from './FloatBtn';
