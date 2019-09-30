@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Tabs from './Tabs';
+//import Tabs from './Tabs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Button, Row, Modal, ModalBody, ModalFooter } from 'reactstrap';
 
@@ -40,14 +40,13 @@ class Search extends Component {
 
     //console.log(searchKeyword);  
 
-    //console.log(searchResults); Prints the filtered results in an array of data
+    console.log(searchResults); //Prints the search bar filtered results in an array of data
   }
 
 
   render() {
 
     let plantList = this.state.searchResults.map((plant, id) => {
-
       return (
 
         <Flippy
@@ -59,7 +58,7 @@ class Search extends Component {
         >
           <FrontSide className="card">
 
-            <img src="https://via.placeholder.com/160x120.png" aria-hidden alt="Card image cap" />
+            <img id={id} src="https://via.placeholder.com/160x120.png" aria-hidden alt="Card image cap" style={{width:'100%', height:'120px'}}/>
 
             <div className="cardfront-wrap">
 
@@ -127,10 +126,6 @@ class Search extends Component {
               <Button color="secondary" onClick={this.toggle}>Close</Button>
             </ModalFooter>
           </Modal>
-        </Row>
-
-        <Row>
-          <Tabs />
         </Row>
 
       </div>
