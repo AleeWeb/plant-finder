@@ -21,9 +21,7 @@ function App() {
 
       <Header />
 
-      <Container className="wrap">
-
-     
+      <Container className="main-wrap">
 
         <Col md="2" xl="2">
 

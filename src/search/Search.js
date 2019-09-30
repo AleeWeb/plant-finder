@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 //import Tabs from './Tabs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Button, Row, Modal, ModalBody, ModalFooter } from 'reactstrap';
-
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
+import Images from './Images';
+
 
 class Search extends Component {
   constructor(props) {
@@ -11,15 +12,18 @@ class Search extends Component {
     this.state = {
       data: [],
       searchResults: [],
-      modal: false
+      images: [],
+      modal: false,
+      currentModal: null
     };
 
     this.toggle = this.toggle.bind(this);
   }
 
-  toggle() {
+  toggle(plantDetails) {
     this.setState(prevState => ({
-      modal: !prevState.modal
+      modal: !prevState.modal,
+      currentModal: plantDetails
     }));
   }
 
@@ -33,8 +37,10 @@ class Search extends Component {
   handleChange = (e) => {
     let searchKeyword = e.target.value;
     let searchResults = this.state.data.filter((eachItem) => {
-      const isMatch = Object.values(eachItem).join(",").includes(searchKeyword);
-      return isMatch;
+      const matchCommonName = eachItem.common_name && eachItem.common_name.toLowerCase().includes(searchKeyword.toLowerCase());
+      const matchPlantType = eachItem.plant_type && eachItem.plant_type.toLowerCase().includes(searchKeyword.toLowerCase());
+      //return isMatch;
+      return matchCommonName || matchPlantType;
     });
     this.setState({ searchResults })
 
@@ -42,11 +48,9 @@ class Search extends Component {
 
     console.log(searchResults); //Prints the search bar filtered results in an array of data
   }
-
-
   render() {
-
-    let plantList = this.state.searchResults.map((plant, id) => {
+    
+    let plantList = this.state.searchResults.map(( plant, id ) => {
       return (
 
         <Flippy
@@ -58,7 +62,8 @@ class Search extends Component {
         >
           <FrontSide className="card">
 
-            <img id={id} src="https://via.placeholder.com/160x120.png" aria-hidden alt="Card image cap" style={{width:'100%', height:'120px'}}/>
+      
+         <img id={id} src={ Images[plant.common_name] && Images[plant.common_name].image} aria-hidden alt="Card image cap" style={{width:'100%', height:'120px'}}/>
 
             <div className="cardfront-wrap">
 
@@ -76,10 +81,10 @@ class Search extends Component {
             <div className="cardback-wrap">
 
               <p><FontAwesomeIcon icon="seedling" className="fact-icon" />
-                <strong>Interesting Fact</strong>: {plant.additional_characteristices_notes}
+              <strong>{plant.common_name} Interesting Fact</strong>: {plant.additional_characteristices_notes}
               </p>
 
-              <Button color="success" onClick={this.toggle}>{this.props.buttonLabel}Learn More!</Button>
+              <Button color="success" onClick={ () => this.toggle(plant) }>{this.props.buttonLabel}Learn More!</Button>
 
             </div>
           </BackSide>
@@ -113,12 +118,20 @@ class Search extends Component {
 
               <button type="button" className="close" aria-label="Close" onClick={this.toggle}><span aria-hidden="true">×</span></button>
               <img src="https://cdn.dribbble.com/users/698871/screenshots/3971146/succulents-animation.gif" width="100%" aria-hidden alt="temporary animated gif" />
+               
+               {
+                 this.state.currentModal ? (
+                  <>
+                    <p><strong>Common Name:</strong> {this.state.currentModal.common_name}</p>
 
-              <p><strong>Common Name:</strong> {this.props.common_name}</p>
+                    <p><strong>Plant Type:</strong> {this.state.currentModal.plant_type}</p>
 
-              <p><strong>Plant Type:</strong> {this.state.plant_type}</p>
+                    <p><strong>Native Type:</strong> {this.state.currentModal.climate_appropriate_plants}</p>
+                   </>
+                 ) : null
+               }
 
-              <p><strong>Native Type:</strong> {this.climate_appropriate_plants}</p>
+
 
             </ModalBody>
             <ModalFooter>
@@ -127,6 +140,8 @@ class Search extends Component {
             </ModalFooter>
           </Modal>
         </Row>
+
+
 
       </div>
     )
