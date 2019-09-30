@@ -11,10 +11,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
 }
 
-.main-wrap {
-    display: inline-flex;
-    margin-bottom: 40px;
-}
 
 ul li {
     margin-bottom: 3px;
@@ -26,19 +22,17 @@ ul li {
     background-color: #003333;
 }
 
-.top-bar-text {
-    position: relative;
-    right: 50px;
-    color: #fff;
-    text-align: center;
+.main-headline {
+    color: #009900;
 }
 
-.header-main-headline, .header-sub-headline {
+.sub-headline {
+    color: #003333;
+}
+
+.main-headline, .sub-headline {
     position: relative;
-    color: #fff;
-    text-shadow: 2px 2px rgb(56,56,56);
     text-align: center;
-    top: 100px;
 }
 
 #header  {
@@ -80,13 +74,19 @@ ul li {
 		}
 	}
 
+/* Description Blurb */
 
-/* Left sidebar */
-
-.left-sidebar {
-    position: relative;
-    width: 220px;
+.blurb-wrap {
+    margin-bottom: 30px;
 }
+
+.blurb-description {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 20px;
+    
+}
+
 
 /* Right content grid */
 
@@ -95,6 +95,52 @@ ul li {
     margin-left: 20px;
     margin: 0 auto;
 }
+
+
+/* Data Search Bar */
+
+
+.search-wrap {
+    margin-top: 40px;
+    margin: 0 auto;    
+}
+
+.search-icon {
+    position: absolute;
+    top: 35px;
+    font-size: 18px;
+    color: #009900;
+    left: 165px;
+}
+
+#search-input {
+    width: 730px;
+    position: relative;
+    left: 20%;
+    padding: 10px;
+    padding-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: solid 1px rgb(27, 94, 32);
+}
+
+::placeholder {
+    padding-left: 10px;
+    opacity: 1; /* Firefox */
+  }
+
+
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    padding-left: 30px;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    padding-left: 30px;
+  }
+
+  ul {
+    list-style-type: none;
+  }
 
 
 /* Data Card Section */
@@ -130,51 +176,3 @@ ul li {
     font-size: 20px;
     color: #009900;
 }
-
-/* Search Bar */
-
-.search-icon {
-	position: absolute;
-    font-size: 18px;
-    color: #555;
-    /* color: #0066FF; */
-    left: 12px;
-    top: 14px;
-}
-
-#search-input {
-    width: 730px;
-    padding: 10px;
-    padding-left: 40px;
-}
-
-::placeholder {
-    padding-left: 10px;
-    opacity: 1; /* Firefox */
-  }
-
-
-  :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    padding-left: 30px;
-  }
-  
-  ::-ms-input-placeholder { /* Microsoft Edge */
-    padding-left: 30px;
-  }
-
-  ul {
-    list-style-type: none;
-  }
-
-  /* Pagination */
-
-
-
-
-/* Left Side Nav */
-
-.radio-wrap {
-    display: block;
- margin-bottom: 20px;
-}
-
