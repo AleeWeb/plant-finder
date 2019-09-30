@@ -181,7 +181,7 @@ const Images = {
     image:'https://upload.wikimedia.org/wikipedia/commons/a/ad/Clarkia_rubicunda.jpg'
   },
   "Japanese Blueberry Tree": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+    image:'https://live.staticflickr.com/7296/9227094747_02bf210424_b.jpg'
   },
   "Hart's Tongue Fern": {
     image:'https://upload.wikimedia.org/wikipedia/commons/7/76/Hart%27s-tongue_fern_%28Asplenium_scolopendrium%29_%2814872292744%29.jpg'
@@ -221,19 +221,34 @@ const Images = {
   "California Hazelnut": {
     image:'https://live.staticflickr.com/3246/2512217873_6f5e671caa_b.jpg'
   },
-
-
-  // Need Images
   "Chinese Houses": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+    image:'https://www.edenbrothers.com/store/media/Seeds-Flowers/resized/SFMIS120-2_medium.jpg'
   },
   "Cabbage Palm": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+    image:'https://live.staticflickr.com/4548/38259090331_ed00f70159_b.jpg'
   },
   "Common Sand Aster": {
     image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
   },
- 
+  "Native mock orange": {
+    image:'https://upload.wikimedia.org/wikipedia/commons/4/49/Lewis%27s_Mock-orange_NFUW_-_Umatilla_NF_Oregon.jpg'
+  },
+  "Native mock orange": {
+    image:'https://upload.wikimedia.org/wikipedia/commons/4/49/Lewis%27s_Mock-orange_NFUW_-_Umatilla_NF_Oregon.jpg'
+  },
+  "California Wild Grape": {
+    image:'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Vitis_californica_at_Caswell_Memorial_State_Park_spring_leaves.jpg/800px-Vitis_californica_at_Caswell_Memorial_State_Park_spring_leaves.jpg'
+  },
+  "Blue Elderberry": {
+    image:'https://live.staticflickr.com/8573/16545050939_5aec3873c4_b.jpg'
+  },
+  "Blue finger": {
+    image:'https://upload.wikimedia.org/wikipedia/commons/3/3f/Senecio_mandraliscae.jpg'
+  },
+
+
+   
+
 }; 
 
 export default Images;
