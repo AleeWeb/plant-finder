@@ -3,8 +3,9 @@ import React from 'react';
 const Header = (props) => {
     return (
         <div id="header">
-            <h1>Top Header</h1>
-            <h3>Future animation and interactive.</h3>
+           
+            <h1 className="header-main-headline">Plant Finder</h1>
+            <h3  className="header-sub-headline">Resource for Gardeners, Designers, Ecologists.</h3>
         </div>
      );
 }

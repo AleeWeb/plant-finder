@@ -1,9 +1,10 @@
 
-/* Temporary CSS - Will replace with SCSS and Styled Components */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 body {
     width: 100%;
     margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -19,19 +20,75 @@ ul li {
     margin-bottom: 3px;
 }
 
-#header {
-    background-color: lightblue;
-    height: 400px;
-    margin-bottom: 20px;
-    text-align: center;
-    position: relative;
-    padding-top: 60px;
+/* Header */
+
+#top-header {
+    background-color: #003333;
 }
+
+.top-bar-text {
+    position: relative;
+    right: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.header-main-headline, .header-sub-headline {
+    position: relative;
+    color: #fff;
+    text-shadow: 2px 2px rgb(56,56,56);
+    text-align: center;
+    top: 100px;
+}
+
+#header  {
+    width: 100%x;
+    height: 400px;
+    margin-bottom: 40px;
+    background-color: hsla(200,40%,30%,.4);
+    color: #fff;
+	background-image:		
+		url('https://78.media.tumblr.com/cae86e76225a25b17332dfc9cf8b1121/tumblr_p7n8kqHMuD1uy4lhuo1_540.png'), 
+		url('https://78.media.tumblr.com/66445d34fe560351d474af69ef3f2fb0/tumblr_p7n908E1Jb1uy4lhuo1_1280.png'),
+		url('https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png'),
+		url('https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png'),
+		url('https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png');
+	background-repeat: repeat-x;
+	background-position: 
+		0 20%,
+		0 100%,
+		0 50%,
+		0 100%,
+		0 0;
+	background-size: 
+		2500px,
+		800px,
+		500px 200px,
+		1000px,
+		400px 260px;
+	animation: 50s para infinite linear;
+	}
+
+@keyframes para {
+	100% {
+		background-position: 
+			-5000px 20%,
+			-800px 95%,
+			500px 50%,
+			1000px 100%,
+			400px 0;
+		}
+	}
+
+
+/* Left sidebar */
 
 .left-sidebar {
     position: relative;
     width: 220px;
 }
+
+/* Right content grid */
 
 .right-grid {
     position: relative;
@@ -45,7 +102,7 @@ ul li {
 .card {
     padding: 0;
     margin: 10px;
-    font-size: 13px;
+    font-size: 14px;
     height: 250px;
     border: none;
 }
