@@ -6,7 +6,7 @@ class Tabs extends Component {
     return (
       <Pagination aria-label="Page navigation example">
       <PaginationItem>
-          <PaginationLink first href="#" />
+          <PaginationLink first href="https://data.sfgov.org/resource/vmnk-skih.json?$limit=5&$offset=0" />
         </PaginationItem>
         <PaginationItem>
           <PaginationLink previous href="#" />

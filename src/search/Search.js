@@ -10,6 +10,7 @@ class Search extends Component {
     super(props);
     this.state = {
       data: [],
+      loading: true,
       searchResults: [],
       images: [],
       modal: false,
@@ -30,7 +31,7 @@ class Search extends Component {
   componentDidMount() {
     fetch('https://data.sfgov.org/resource/vmnk-skih.json?$select=*')
       .then(response => response.json())
-      .then(data => this.setState({ data: data, searchResults: data }))
+      .then(data => this.setState({ data: data, searchResults: data, loading: false }))
   }
 
   handleChange = (e) => {
@@ -47,6 +48,8 @@ class Search extends Component {
     // console.log(searchResults); Prints the search bar filtered results in an array of data
   }
   render() {
+
+    let { loading } = this.state;
 
     let plantList = this.state.searchResults.map((plant, id) => {
       return (
@@ -146,6 +149,11 @@ class Search extends Component {
               <Button color="secondary" onClick={this.toggle}>Close</Button>
             </ModalFooter>
           </Modal>
+        </Row>
+
+
+        <Row>
+          {loading ? <h2 className="main-headline" style={{margin: "0 auto", marginBottom: "20px"}}> <FontAwesomeIcon icon="spa" />Loading...</h2> : plantList}
         </Row>
 
 
