@@ -79,7 +79,7 @@ class Search extends Component {
             <div className="cardback-wrap">
 
               <p className="fact-txt"><FontAwesomeIcon icon="seedling" className="fact-icon" />
-                <strong>{plant.common_name} Interesting Fact</strong>: {plant.additional_characteristices_notes}
+                <strong>{plant.common_name} Interesting Facts</strong>: {plant.additional_characteristices_notes}
               </p>
 
               <Button color="success" onClick={() => this.toggle(plant)}>{this.props.buttonLabel}Learn More!</Button>

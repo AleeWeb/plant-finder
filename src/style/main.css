@@ -154,9 +154,9 @@ ul {
 
   
 
-@media (max-width: 576px) {
+  @media (max-width: 576px) {
 
 		#search-input {
-			width: auto!important;
+			width: auto;
 		}
 }

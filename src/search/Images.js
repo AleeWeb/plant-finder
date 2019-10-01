@@ -228,7 +228,7 @@ const Images = {
     image:'https://live.staticflickr.com/4548/38259090331_ed00f70159_b.jpg'
   },
   "Common Sand Aster": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+    image:'https://c1.staticflickr.com/4/3936/15264285120_0bddeb9463_b.jpg'
   },
   "Native mock orange": {
     image:'https://upload.wikimedia.org/wikipedia/commons/4/49/Lewis%27s_Mock-orange_NFUW_-_Umatilla_NF_Oregon.jpg'
@@ -249,31 +249,28 @@ const Images = {
     image:'https://upload.wikimedia.org/wikipedia/commons/0/02/FranciscanWallflower.jpg'
   },
   "Washington Hawthorn": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+    image:'https://live.staticflickr.com/4476/37648967336_04cd61da2e_b.jpg'
   },
   "Lavallée's hawthorn": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+    image:'https://upload.wikimedia.org/wikipedia/commons/e/e7/Crataegus_lavallei_flowers.jpg'
   },
   "Alkali Weed": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+    image:'https://live.staticflickr.com/7524/16041161645_244aae295d_b.jpg'
   },
   "Queen Palm": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+    image:'https://upload.wikimedia.org/wikipedia/commons/2/20/Syagrus_romanzoffiana%2C_bloeiwyse_en_vrugstadium%2C_Moreletapark%2C_a.jpg'
   },
   "Trailing Snowberry": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+    image:'https://upload.wikimedia.org/wikipedia/commons/9/90/Trailing_Snowberry_%28Symphoricarpos_mollis%29_%284344455139%29.jpg'
   },
   "Wild Aster": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
-  },
-  "Huckleberry": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+    image:'https://live.staticflickr.com/6004/5974161659_8e830f5245_b.jpg'
   },
   "Mock Heather": {
     image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
   },
   "Dune Tansy": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+    image:'https://upload.wikimedia.org/wikipedia/commons/b/b1/Tanacetumcamphoratum.jpg'
   },
   "Red Fescue": {
     image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
@@ -282,44 +279,251 @@ const Images = {
     image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
   },
   "Fringe Cups": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+    image:'https://upload.wikimedia.org/wikipedia/commons/0/0c/Fringecup_%28Tellima_grandiflora%29_%285813743457%29.jpg'
   },
   "Littleleaf Linden": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+    image:'https://upload.wikimedia.org/wikipedia/commons/0/07/Tilia_cordata_Greenspire_0zz.jpg'
   },
   "Bull Clover": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+    image:'https://live.staticflickr.com/5451/7092444519_d47a78cfe8_b.jpg'
   },
   "Pinpoint Clover": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+    image:'https://calphotos.berkeley.edu/imgs/512x768/0000_0000/1206/0039.jpeg'
   },
   "Whitetip Clover": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+    image:'https://live.staticflickr.com/2936/14274222293_bdc46608dd_n.jpg'
   },
   "Tomcat Clover": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+    image:'https://farm4.staticflickr.com/3908/15147761261_ccd3cfae5b_b.jpg'
   },
   "Cow Clover": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+    image:'https://live.staticflickr.com/4216/35407197382_2777052c50_b.jpg'
   },
   "Water Gum": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+    image:'https://live.staticflickr.com/5247/5345666519_fb25d4d175_b.jpg'
   },
   "Western Goldenrod": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+    image:'https://farm3.staticflickr.com/2575/4057021151_85aaedba1b_b.jpg'
   },
   "Elegant Brisbane Box": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+    image:'https://i.imgur.com/WJgl5jJ.jpg'
   },
   "Southern Cattail": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+    image:'https://live.staticflickr.com/283/20225243809_608c4aa036_b.jpg'
   },
   "Broadleaf Cattail": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
+    image:'https://live.staticflickr.com/7765/27533493402_60efa161c8_b.jpg'
   },
   "Drake/Sempervirens Chinese Elm": {
-    image:'https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/artist58ec4e443bebd.jpeg'
-  }
+    image:'https://www.fuf.net/wp-content/uploads/2012/10/AA.-Ulmus-parv.-treeAdam.jpg'
+  },
+  "Stinging Nettle": {
+    image:'https://upload.wikimedia.org/wikipedia/commons/b/b8/Urtica_dioica_gracilis_%285107954834%29.jpg'
+  },
+  "Hoary Nettle": {
+    image:'http://nathistoc.bio.uci.edu/plants/Urticaceae/Hoary%20Nettle%20(Urtica%20dioica%20ssp.%20holosericea)/Shipley%20Nature%20Center,%20Huntington%20Central%20Park,%20Huntington%20Beach,%20CA.%20%20%205-21-10%20027.jpg'
+  },
+  "Huckleberry": {
+    image:'https://live.staticflickr.com/2066/2391307413_4c437c14ff_b.jpg'
+  },
+  "Purpletop Vervain": {
+    image:'https://live.staticflickr.com/915/42799621374_895f8f2cc7_b.jpg'
+  },
+  "Western Vervain": {
+    image:'https://i.imgur.com/X8NU3M6.jpg'
+  },
+  "Mexican Fan Palm": {
+    image:'https://live.staticflickr.com/3197/3127373221_87fb28e275_b.jpg'
+  },
+  "Carrot Wood": {
+    image:'https://live.staticflickr.com/3197/2980593995_fbe7fd42f0_z.jpg'
+  },
+  "California Oatgrass": {
+    image:'https://live.staticflickr.com/4278/35001436034_ede84dd6fa_b.jpg'
+  },
+  "Coast Tarweed": {
+    image:'https://live.staticflickr.com/3137/3812439238_c35f898206_b.jpg'
+  },
+  "Western modesty": {
+    image:'https://upload.wikimedia.org/wikipedia/commons/f/f8/Whipplea_modesta.jpg'
+  },
+  "Tufted Hairgrass": {
+    image:'https://www.larnerseeds.com/sites/default/files/styles/basic_page_slideshow_custom_user_all_1x/public/images/products/display/deschampsia_cespitosa_holciformis.jpg'
+  },
+  "Saltgrass": {
+    image:'https://live.staticflickr.com/6040/6361960353_8df6c171be_b.jpg'
+  },
+ "Chalk Dudleya": {
+    image:'https://live.staticflickr.com/7371/28141161522_e4a91cb70b_b.jpg'
+  },
+  "Sea Lettuce, Coast Dudleya": {
+    image:'https://upload.wikimedia.org/wikipedia/commons/4/4b/Dudleya_is_a_genus_of_succulent_perennials%2C_seen_here_in_Harmony_Headlands_State_Park_23_July_2011.jpg'
+  },
+  "California Fescue": {
+    image:'https://klamathsiskiyouseeds.com/wp-content/uploads/2018/02/festuca-californica_california-fescue.jpg'
+  },
+  "California Fuchsia": {
+    image:'https://live.staticflickr.com/5525/10548871223_a3f36fa7e8_b.jpg'
+  },
+  "California Poppy": {
+    image:'https://cdn.pixabay.com/photo/2017/05/16/21/30/california-poppy-2319032_960_720.jpg'
+  },
+  "California Lilac": {
+    image:'https://upload.wikimedia.org/wikipedia/commons/e/ec/Ceanothus_thyrsyflorus_Repens.jpg'
+  },
+  "California Horkelia": {
+    image:'https://upload.wikimedia.org/wikipedia/commons/4/42/Horkelia_californica.jpg'
+  },
+  "California Goldfields": {
+    image:'https://upload.wikimedia.org/wikipedia/commons/0/09/Lasthenia_californica.jpg'
+  },
+  "California Celery": {
+    image:'https://upload.wikimedia.org/wikipedia/commons/8/87/Lomatium_californicum.jpeg'
+  },
+  "California Melic " : {
+    image:'https://live.staticflickr.com/7282/8737801170_8fc2160849_b.jpg'
+  },
+  "California Wax Myrtle, Pacific Bayberry": {
+    image:'https://live.staticflickr.com/5291/5429823128_847f682b93_b.jpg'
+  },
+  "California Phacelia": {
+    image:'https://c2.staticflickr.com/6/5515/14620443432_21ea6e93f7_b.jpg'
+  },
+  "California Canarygrass": {
+    image:'https://upload.wikimedia.org/wikipedia/commons/b/b7/BROMUS_HORDEACEUS_-_AGUDA_-_IB-957_%28Cua_de_guilla%29.JPG'
+  },
+  "California Buttercup": {
+    image:'https://live.staticflickr.com/3385/3307896638_3bc23d9122_z.jpg'
+  },
+  "California Wild Rose": {
+    image:'https://upload.wikimedia.org/wikipedia/commons/0/0e/Rosa_californica_2004-07-20.jpg'
+  },
+  "California Blackberry": {
+    image:'https://upload.wikimedia.org/wikipedia/commons/3/38/Rubus_ursinus_10689.JPG'
+  },
+  "California White Sage": {
+    image:'https://live.staticflickr.com/3484/3983214095_5d6f229b7a_b.jpg'
+  },
+  "California Bulrush": {
+    image:'https://live.staticflickr.com/7202/6985212079_2cd3af2df7_b.jpg'
+  },
+  "California Bee Plant": {
+    image:'https://live.staticflickr.com/8522/8684690222_d261b095f4_b.jpg'
+  },
+  "California black walnut": {
+    image:'https://upload.wikimedia.org/wikipedia/commons/c/cf/California_Blackwalnut.jpg'
+  },
+  "California bay laurel": {
+    image:'https://live.staticflickr.com/4083/5170325670_898c778ec7_b.jpg'
+  },
+  "California Buckwheat": {
+    image:'https://upload.wikimedia.org/wikipedia/commons/a/a6/Eriogonum_fasciculatum--_California_Buckwheat_%2827799078065%29.jpg'
+  },
+  "California Buckwheat;St. Catherine's Lace": {
+    image:'https://farm6.staticflickr.com/5599/15491957405_0cc82f9ec4_b.jpg'
+  },
+  "California Indian Pink": {
+    image:'https://upload.wikimedia.org/wikipedia/commons/5/56/Mexican_Indian_Pinks_%284776487520%29.jpg'
+  },
+  "California Honeysuckle": {
+    image:'https://live.staticflickr.com/1833/41182060540_fe67ab2808_b.jpg'
+  },
+  "California coneflower": {
+    image:'https://upload.wikimedia.org/wikipedia/commons/f/f0/Yellow_coneflower_Rudbeckia_californica_060731.jpg'
+  },
+  "California Gilia": {
+    image:'https://live.staticflickr.com/7380/26963538465_cf363c4dbf_b.jpg'
+  },
+  "California sycamore": {
+    image:'https://live.staticflickr.com/7510/15875631919_cda2851122_b.jpg'
+  },
+  "California larkspur": {
+    image:'https://live.staticflickr.com/1329/910712767_5810bb3934_b.jpg'
+  },
+  "California saltbush": {
+    image:'https://live.staticflickr.com/3624/3457339015_0e5da27e28_z.jpg'
+  },
+  "California maidenhair fern": {
+    image:'https://live.staticflickr.com/1463/25899292565_84308ba972_b.jpg'
+  },
+  "California Aster": {
+    image:'https://live.staticflickr.com/1292/1260016842_39b954dbfb_b.jpg'
+  },
+  "California Morning Glory": {
+    image:'https://upload.wikimedia.org/wikipedia/commons/c/cb/MORNING_GLORY_%28calystegia_macrostegia%29_%284-30-09%29_coon_ck%2C_slo_-01_%283489903054%29.jpg'
+  },
+  "California yerba santa, Yerba santa": {
+    image:'https://live.staticflickr.com/8/10003629_b4c4a7feff_b.jpg'
+  },
+  "Blue-eyed Grass": {
+    image:'http://res.publicdomainfiles.com/pdf_view/94/13946112615342.jpg'
+  },
+  "Australian Bluebell Creeper": {
+    image:'https://live.staticflickr.com/7155/6468761721_66a04a0492_b.jpg'
+  },
+  "San Francisco bluegrass": {
+    image:'https://i.imgur.com/mE3fapQ.jpg'
+  },
+  "California Buckwheat;St. Catherine's Lace?": {
+    image:'https://farm6.staticflickr.com/5599/15491957405_0cc82f9ec4_b.jpg'
+  },
+  "blue grama": {
+    image:'https://live.staticflickr.com/3223/3157520979_b85b8f04f8_b.jpg'
+  },
+  "Woolly Blue Curls": {
+    image:'https://live.staticflickr.com/4131/5209802978_6eb7d5ecd8_b.jpg'
+  },
+  "Blue Oat Grass": {
+    image:'https://live.staticflickr.com/3403/3484970158_82c8f4d1d2_b.jpg'
+  },
+  "Blue Chalk Stalks": {
+    image:'https://upload.wikimedia.org/wikipedia/commons/a/a9/Golden_Barrels_%26_Senecio_mandraliscae_Blue_Chalk_Stick_succulents%2C_Huntington.jpg'
+  },
+  "Low Blue Blossom": {
+    image:'https://live.staticflickr.com/5055/5389207641_295610f9af_b.jpg'
+  },
+  "Blue Wheatgrass, Magellan Wheatgrass": {
+    image:'https://pics.davesgarden.com/pics/2012/03/05/palmbob/9f21fa.jpg'
+  },
+  "California bluebell": {
+    image:'https://farm1.staticflickr.com/869/39655679850_9a0f4fce58_b.jpg'
+  },
+  "Blue Mist, Blue Beard": {
+    image:'https://live.staticflickr.com/2224/1556566827_717e744688_b.jpg'
+  },
+  "CA. Desert Bluebells Bluebells": {
+    image:'https://live.staticflickr.com/8746/16278440634_542ea115e3_b.jpg'
+  },
+  "Common Blue Fescue": {
+    image:'https://live.staticflickr.com/1279/5186529666_3426541c55_b.jpg'
+  },
+  "Blue Hibiscus": {
+    image:'https://upload.wikimedia.org/wikipedia/commons/5/53/Alyogyne-huegelii-20080330.JPG'
+  },
+  "Coast Purple Sage": {
+    image:'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/San_Luis_Purple_Sage_-_Salvia_leucophylla_%2843042080924%29.jpg/1599px-San_Luis_Purple_Sage_-_Salvia_leucophylla_%2843042080924%29.jpg'
+  },
+  "Purple Needlegrass": {
+    image:'https://live.staticflickr.com/8244/8662278008_0b78d4cf51_b.jpg'
+  },
+  "Purple Toadflax": {
+    image:'https://upload.wikimedia.org/wikipedia/commons/f/fb/Purple_Toadflax_%28Linaria_purpurea%29_%287704171576%29.jpg'
+  },
+  "Purple Coneflower": {
+    image:'https://live.staticflickr.com/3005/2742128633_52e40b425e_b.jpg'
+  },
+  "Purple Lavander": {
+    image:'https://upload.wikimedia.org/wikipedia/commons/3/36/Lavender_stripes_somewhere_between_Valensole_and_Moustiers-Sainte-Marie_-_Provence%2C_France_-_30_June_2014.jpg'
+  },
+  "California yerba santa,  Yerba santa ": {
+    image:'https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Yerba_santa%2C_Eriodictyon_californicum%2C_California.jpg/1600px-Yerba_santa%2C_Eriodictyon_californicum%2C_California.jpg'
+  },
+  "CA. Desert Bluebells\nBluebells": {
+    image:'https://live.staticflickr.com/5055/5389207641_295610f9af_b.jpg'
+  },
+  //"Blue Mist, Blue Beard": {   This one has a duplicate in the API that shows up in the Console
+   // image:'https://live.staticflickr.com/2224/1556566827_717e744688_b.jpg'
+ // }
 }; 
 
 export default Images;
