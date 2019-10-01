@@ -65,15 +65,9 @@ ul li {
 	margin-top: 40px;
 	margin: 0 auto;
 }
-.search-icon {
-	position: absolute;
-	top: 35px;
-	font-size: 18px;
-	color: #009900;
-	left: 165px;
-}
+
 #search-input {
-	width: 730px;
+	width: auto;
 	position: relative;
 	left: 20%;
 	padding: 10px;
@@ -83,9 +77,17 @@ ul li {
 	border: solid 1px rgb(27, 94, 32);
 }
 ::placeholder {
-	padding-left: 10px;
+	padding-left: 3px;
 	opacity: 1;
 	/* Firefox */
+}
+
+.search-icon {
+	position: absolute;
+	top: 35px;
+	font-size: 18px;
+	color: #009900;
+	left: 57px;
 }
 :-ms-input-placeholder {
 	/* Internet Explorer 10-11 */
@@ -143,20 +145,27 @@ ul {
 	-webkit-animation: FooterBanner 15s ease infinite;
 	animation: FooterBanner 15s ease infinite;
   }
-  
-  .footer a {
-	color: #fff;
-  }
-  
-  .footer a:hover {
-	color: yellow;
-  }
 
   
 
-  @media (max-width: 576px) {
+  @media (min-width: 1024px) and (max-width: 2020px) {
 
-		#search-input {
-			width: auto;
+		#search-input {
+			width: 730px;
+			position: relative;
+			left: 20%;
+			padding: 10px;
+			padding-left: 40px;
+			margin-top: 20px;
+			margin-bottom: 30px;
 		}
+
+		.search-icon {
+			position: absolute;
+			top: 35px;
+			font-size: 18px;
+			color: #009900;
+			left: 160px;
+		}				
+
 }
