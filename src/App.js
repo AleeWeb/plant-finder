@@ -18,7 +18,10 @@ library.add(fas, faSearch, faSeedling, faSpa)
 function App() {
 
   return (
-    <Suspense fallback={<div style={{ height: "100vh", width: "100vw", backgroundColor: "darkgreen", color: "#fff" }}><h1 style={{ position: "relative", textAlign: "center", top: "220px" }}><img src="https://i.imgur.com/Z8Cqtno.png" alt="Flower" />Plant Finder is Loading...</h1></div>}>
+    <Suspense fallback={<div style={{ height: "100vh", width: "100vw", backgroundColor: "darkgreen", color: "#fff" }}>
+      <h1 style={{ position: "relative", textAlign: "center", top: "220px" }}>
+        <img src="https://i.imgur.com/Z8Cqtno.png" alt="Flower" />Plant Finder is Loading...</h1></div>
+      }>
       <>
         <Loader />
         <TopBar />

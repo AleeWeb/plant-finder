@@ -113,7 +113,7 @@ class Search extends Component {
 
         <Row>
 
-          {plantList}
+       
 
           <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
 

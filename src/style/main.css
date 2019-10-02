@@ -25,6 +25,7 @@ ul li {
 	position: relative;
 	text-align: center;
 }
+
 #header {
 	width: 100%x;
 	height: 400px;
@@ -42,6 +43,8 @@ ul li {
 		background-position: -5000px 20%, -800px 95%, 500px 50%, 1000px 100%, 400px 0;
 	}
 }
+
+
 /* Description Blurb */
 
 .blurb-wrap {
