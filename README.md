@@ -31,20 +31,23 @@ Anyone who is interested in:
 
 <p>To clearly communicate the data to the user. Make sure the user experience isn't confusing by balancing out the animation and effects with clear and consise UI.</p>
 
-<img src="https://i.imgur.com/MedgDAM.png" alt="flipping card UI UX" />
-                                                                   
 <p>I tried to make the data interesting and fun by making the cards flip to display hidden data under the "Interesting Fact" section that I created on the back of the cards.</p>
+
+<img src="https://i.imgur.com/MedgDAM.png" alt="flipping card UI UX" />                                                     
   
 <h4>What are the project requirements?</h4>
 
 To search and filter San Francisco plants
 
-
 <strong>2. Visual Brainstorm during the early stages.</strong>
 
 <p>Quickly create wireframes, mock-ups/ Prototypes to visually brainstorm how I would like to layout the content for the app.</p>
 
-<strong>3. Based on the data, project requirements and app purpose, I research technology options that will visualize the data in the way I would like.</strong>
+<strong>Wireframe:</strong> <a href="https://i.imgur.com/TEciPcs.jpg" target="_blank">https://i.imgur.com/TEciPcs.jpg</a>
+
+<strong>Clickable Prototype Demo:</strong> <a href="https://xd.adobe.com/view/14b3fa87-f353-4c99-656e-c842c2388ab3-6282/?fullscreen" target="_blank">Adobe XD Flipping Card</a>
+
+3. Based on the data, project requirements and app purpose, I <strong>research</strong> technology options that will visualize the data in the way I would like.
 
 <strong>4. Select the technology stack for the app and start coding!</strong>
 
