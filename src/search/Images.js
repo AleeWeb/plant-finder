@@ -282,7 +282,7 @@ const Images = {
     image:'https://live.staticflickr.com/5451/7092444519_d47a78cfe8_b.jpg'
   },
   "Pinpoint Clover": {
-    image:'https://calphotos.berkeley.edu/imgs/512x768/0000_0000/1206/0039.jpeg'
+    image:'https://static.inaturalist.org/photos/3412724/original.jpg?1461031125'
   },
   "Whitetip Clover": {
     image:'https://live.staticflickr.com/2936/14274222293_bdc46608dd_n.jpg'
@@ -528,7 +528,7 @@ const Images = {
     image:'https://upload.wikimedia.org/wikipedia/commons/4/4c/Leymus_mollis_ssp._mollis.jpeg'
   },
   "Pacific wild rye": {
-    image:'https://calphotos.berkeley.edu/imgs/512x768/0000_0000/0606/0039.jpeg'
+    image:'https://i.imgur.com/jdS7ZLT.jpg'
   },
   "Beardless wild rye": {
     image:'https://live.staticflickr.com/6201/6127562224_f8b1ae2904_b.jpg'

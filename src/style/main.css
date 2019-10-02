@@ -26,6 +26,8 @@ ul li {margin-bottom: 3px;}
 
 .sub-headline {color: #003333;}
 
+.blurb-bold {color: #009900; font-weight: bold}
+
 .main-headline, .sub-headline { position: relative; text-align: center;}
 
 #header {

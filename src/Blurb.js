@@ -15,8 +15,8 @@ function Blurb() {
                 unique environment, climate and habitats.
             </p>
 
-            <p className="main-headline" style={{marginTop: "15px"}}><strong>You can search by types: Tree, Shrub, Perennial 
-                and also the Plant Name!</strong></p>
+            <p style={{textAlign: "center", marginTop: "15px"}}>You can search by types:  
+            <span className="blurb-bold">Tree, Shrub, Perennial</span> and the <span className="blurb-bold">Plant Name</span>!</p>
 
         <hr />
 
