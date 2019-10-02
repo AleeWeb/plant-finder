@@ -64,7 +64,7 @@ class Search extends Component {
           <FrontSide className="card">
 
 
-            <img id={id} src={Images[plant.common_name] && Images[plant.common_name].image} aria-hidden alt="Card image cap" style={{ width: '100%', height: '120px' }} />
+          <img key={id} src={Images[plant.common_name] ? Images[plant.common_name].image : 'https://i.imgur.com/VRaN8uw.jpg'} aria-hidden alt="Plant image" style={{ width: '100%', height: '120px' }} />
 
             <div className="cardfront-wrap">
 
@@ -82,7 +82,7 @@ class Search extends Component {
             <div className="cardback-wrap">
 
               <p className="fact-txt"><FontAwesomeIcon icon="seedling" className="fact-icon" />
-                <strong>{plant.common_name} Interesting Facts</strong>: {plant.additional_characteristices_notes}
+                <strong>{plant.common_name} Interesting Facts</strong>: {plant.additional_characteristices_notes} 
               </p>
 
               <Button color="success" onClick={() => this.toggle(plant)}>{this.props.buttonLabel}Learn More!</Button>
