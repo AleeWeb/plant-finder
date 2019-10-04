@@ -5,7 +5,7 @@
 
 <strong>Initial Wireframe:</strong> <a href="https://i.imgur.com/TEciPcs.jpg" target="_blank">https://i.imgur.com/TEciPcs.jpg</a>
 
-<strong>Clickable Prototype Demo:</strong> <a href="https://xd.adobe.com/view/14b3fa87-f353-4c99-656e-c842c2388ab3-6282/?fullscreen" target="_blank">Adobe XD Flipping Card</a>
+<strong>Clickable Prototype Demo:</strong> <a href="https://xd.adobe.com/view/7e3b7d4e-01da-4910-576f-be30f8598645-080a/?fullscreen" target="_blank">Adobe XD Flipping Card</a>
 
 <img src="https://i.imgur.com/QH6tjIm.jpg" alt="Plant Finder Screenshot" />
 
